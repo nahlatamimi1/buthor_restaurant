@@ -1,0 +1,27 @@
+#leftsidebar ul li a {
+    font-size: 18px;
+}
+#leftsidebar ul li a:hover {
+    font-size: 20px;
+}
+#leftsidebar ul li #icon{
+    color: #807e7edc;
+    text-decoration: none; 
+    font-size: 20px; 
+  
+}
+#leftsidebar ul li #icon:hover {
+    color: #aba239; 
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+

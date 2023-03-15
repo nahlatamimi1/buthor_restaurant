@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+</head>
+
+<body style="height: auto; width: 1200px;">
+
+    <div id="leftsidebar"
+        style="background-color: rgb(52, 50, 50); position: fixed; left: 0; bottom: 0; top: 0; width: 250px;">
+        <div class="d-flex justify-content-between" style="margin-top: 40px;">
+            <img class="p-3 rounded-circle" style="width: 100px;" src="icons/buthor.jpg" alt="buthor">
+            <img class="p-3 rounded-circle" src="icons/arrow2.jpg" style="width :60px; height: 60px; margin-top: 8px;"
+                alt="arrow">
+        </div>
+
+
+        <div class="container mt-3">
+
+            <h6 style="color: rgb(125, 123, 123);" class="p-3">Menu</h6>
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <div class="menu1 d-flex justify-content-start ">
+                        <a id="icon" class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-layers-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z" />
+                                <path
+                                    d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z" />
+                            </svg>
+                        </a>
+                        <a class="nav-link text-white" style="margin-top: 4px; padding-left:0;" href="#">Home</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="menu1 d-flex justify-content-start ">
+                        <a id="icon" class="nav-link " href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-layers-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z" />
+                                <path
+                                    d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z" />
+                            </svg>
+                        </a>
+                        <a class="nav-link text-white " style="margin-top: 2px; padding-left:0;" href="#">Spicy food</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="menu1 d-flex justify-content-start ">
+                        <a id="icon" class="nav-link " href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-layers-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z" />
+                                <path
+                                    d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z" />
+                            </svg>
+                        </a>
+                        <a class="nav-link text-white " style="margin-top: 2px; padding-left:0;" href="#">Fast Food</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="menu1 d-flex justify-content-start ">
+                        <a id="icon" class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-layers-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z" />
+                                <path
+                                    d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z" />
+                            </svg>
+                        </a>
+                        <a class="nav-link text-white " style="margin-top: 2px; padding-left:0;" href="#">Healthy
+                            food</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="menu1 d-flex justify-content-start ">
+                        <a id="icon" class="nav-link  " href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-layers-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z" />
+                                <path
+                                    d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z" />
+                            </svg>
+                        </a>
+                        <a class="nav-link text-white " style="margin-top: 2px; padding-left:0;" href="#">Western
+                            food</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="menu1 d-flex justify-content-start ">
+                        <a id="icon" class="nav-link " href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-layers-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z" />
+                                <path
+                                    d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z" />
+                            </svg>
+                        </a>
+                        <a class="nav-link text-white " style="margin-top: 2px; padding-left:0;" href="#">Candies</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="menu1 d-flex justify-content-start ">
+                        <a id="icon" class="nav-link " href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-layers-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z" />
+                                <path
+                                    d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z" />
+                            </svg>
+                        </a>
+                        <a class="nav-link text-white " style="margin-top: 2px; padding-left:0;" href="#">Drinks</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dropdown" style="margin-top: 150px; margin-left: 5px;">
+            <button type="button" class="btn dropdown-toggle" style="background-color: rgb(52, 50, 50);"
+                data-bs-toggle="dropdown">
+                <img style="width: 30px;height: 30px;" src="food/img8.jpg" class="rounded-circle" alt="">
+                <span style="color:white; margin-left: 5px;">Mohammad</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="header" class="d-flex justify-content-between "
+        style="background-color: rgb(255, 255, 255); margin-left: 250px; margin-top: 15px; width: 100%; height: 70px; ">
+
+        <div id="header_left" class=" d-flex justify-content-start" style="margin-left: 40px; margin-top: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+
+            <div class="dropdown">
+                <button type="button" class="btn btn-md dropdown-toggle" data-bs-toggle="dropdown">
+                    English
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Arabic</a></li>
+                    <li><a class="dropdown-item" href="#">Turkish</a></li>
+                    <li><a class="dropdown-item" href="#">Russian</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header_center">
+            <h1>Buthor restaurant</h1>
+        </div>
+
+
+        <div id="header_right" class="d-flex justify-content-center">
+            <h6 class=" p-3" style="border-right: 2px solid rgb(230, 229, 229);">Profile </h6>
+            <button type="button" class="m-2 btn btn-sm btn-secondary" style="width: 120px; height: 40px;">Checkout
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart3"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+            </button>
+        </div>
+
+
+    </div>
+
+
+    <div id="content"
+        style="background-color:rgb(228, 226, 226); margin-left: 250px; width: 100%; height: 1000px; top: 0;">
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+
+            </div>
+
+            <div class="carousel-inner" style="padding: 40px;">
+                <div class="carousel-item active">
+                    <img src="food/photo1.jpg" alt="food" class="d-block w-100 " style="width: 200px; height: 400px; ">
+                </div>
+                <div class="carousel-item">
+                    <img src="food/photo2.jpg" alt="Chicago" class="d-block w-100" style="width: 200px; height: 400px; ">
+                </div>
+                <div class="carousel-item">
+                    <img src="food/photo3.jpg" alt="New York" class="d-block w-100" style="width: 200px; height: 400px; ">
+                </div>
+                <div class="carousel-item">
+                    <img src="food/photo4.jpg" alt="New York" class="d-block w-100" style="width: 200px; height: 400px;">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+
+        <div id="bottom" style=" padding-left: 40px;" class="d-flex justify-content-between">
+            <div id="bottom_left">
+
+                <img src="food/photo5.jpg" alt="soup" width="700px" height="450px">
+            </div>
+            <div id="bottom_right_card">
+
+                <div class="container ">
+
+                    <div class="card" style="width:400px; height: 450px;">
+                        <img class="card-img-top" src="food/img8.jpg" alt="falafel salad"
+                            style="width:100%; height: 240px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Falafel salad</h4>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural lead-in to additional
+                                content. This content is a little bit longer
+                            </p>
+
+                            <div id="bottom_right_card_bottom" class="d-flex justify-content-between"  style="margin-top:  40px ;">
+                                <div id="bottom_right_left" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-star-fill" viewBox="0 0 16 16" style="color: rgb(230, 230, 50);">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg>
+                                    <span style="color: rgb(230, 230, 50); padding: 5px;">46</span>
+
+                                </div>
+                                <div id="bottom_right_right">
+
+                                    <a href="#" style="text-decoration: none; color: rgb(168, 168, 168);">show more ></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+        <script>
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+        </script>
+</body>
+
+</html>
+
